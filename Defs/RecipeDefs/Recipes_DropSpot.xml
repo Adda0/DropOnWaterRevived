@@ -12,7 +12,7 @@
 
 	<RecipeDef ParentName="DropOnWaterBase">
 		<defName>DropCorpses</defName>
-		<label>drop human corpses</label>
+		<label>drop corpses</label>
 		<description>Tie a concrete block on the corpse and run before the police appear. But be careful, stuff dropped on water can't be recovered.</description>
 		<ingredients>
 			<li>
