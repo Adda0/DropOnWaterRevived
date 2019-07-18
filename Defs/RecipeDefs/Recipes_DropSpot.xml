@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef Name="DropOnWaterBase" Abstract="True">
+		<jobString>Sshhh... There's nothing happening here...</jobString>
+		<recipeUsers>
+			<li>DropSpot</li>
+		</recipeUsers>
+		<workAmount>350</workAmount>
+		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DropOnWaterBase">
+		<defName>DropCorpses</defName>
+		<label>drop human corpses</label>
+		<description>Tie a concrete block on the corpse and run before the police appear. But be careful, stuff dropped on water can't be recovered.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Corpses</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Corpse_Human</li>
+			</thingDefs>
+			<specialFiltersToAllow>
+				<li>AllowCorpsesColonist</li>
+				<li>AllowCorpsesStranger</li>
+			</specialFiltersToAllow>
+		</defaultIngredientFilter>
+		<autoStripCorpses>false</autoStripCorpses>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DropOnWaterBase">
+		<defName>DropApparel</defName>
+		<label>drop apparel</label>
+		<description>You don't need this, colonists hate these things. But be careful, stuff dropped on water can't be recovered.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Apparel</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Apparel</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowNonDeadmansApparel</li>
+				<li>AllowDeadmansApparel</li>
+			</specialFiltersToDisallow>
+		</defaultIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DropOnWaterBase">
+		<defName>DropWeapons</defName>
+		<label>drop weapons</label>
+		<description>They worked one day... But be careful, stuff dropped on water can't be recovered.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Weapons</li>
+					</categories>
+				</filter>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Weapons</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef Name="DropAnythingBase" ParentName="DropOnWaterBase" Abstract="True">
+		<description>Have you heard something about global warming? But be careful, stuff dropped on water can't be recovered.</description>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Foods</li>
+				<li>Manufactured</li>
+				<li>ResourcesRaw</li>
+				<li>Items</li>
+				<li>Weapons</li>
+				<li>Apparel</li>
+				<li>Chunks</li>
+				<li>Corpses</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories />
+		</defaultIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DropAnythingBase">
+		<defName>DropAnything</defName>
+		<label>drop anything</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>Chunks</li>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+			</li>
+		</ingredients>
+
+	</RecipeDef>
+
+	<RecipeDef ParentName="DropAnythingBase">
+		<defName>DropAnythingx25</defName>
+		<label>drop anything x25</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>Chunks</li>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DropAnythingBase">
+		<defName>DropAnythingx75</defName>
+		<label>drop anything x75</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>Chunks</li>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+
+</Defs>

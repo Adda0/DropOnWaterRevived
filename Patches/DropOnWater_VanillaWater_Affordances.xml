@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Setup affordances !-->
+  <!-- Deep water !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+	    <success>Invert</success>
+	  </li>
+	  <li Class="PatchOperationInsert">
+	    <xpath>Defs/TerrainDef[defName = "WaterDeep"]/renderPrecedence</xpath>
+		<value><affordances /></value>
+	  </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+	<value><li>DropOnWater</li></value>
+  </Operation> 
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+	    <success>Invert</success>
+	  </li>
+	  <li Class="PatchOperationInsert">
+	    <xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/renderPrecedence</xpath>
+		<value><affordances /></value>
+	  </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+	<value><li>DropOnWater</li></value>
+  </Operation> 
+	
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+	    <success>Invert</success>
+	  </li>
+	  <li Class="PatchOperationInsert">
+	    <xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/renderPrecedence</xpath>
+		<value><affordances /></value>
+	  </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationadd">
+    <xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+	<value><li>DropOnWater</li></value>
+  </Operation> 
+
+ </Patch>

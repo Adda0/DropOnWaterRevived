@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>DropSpot</defName>
+		<label>drop spot</label>
+		<description>Troubles with something or... somebody? Just drop them on water when nobody is looking.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Misc/DropSpot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.0</Flammability>
+			<WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>False</useHitPoints>
+		<size>(1,1)</size>
+		<designationCategory>Misc</designationCategory>
+		<passability>Standable</passability>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<workSpeedPenaltyOutdoors>false</workSpeedPenaltyOutdoors>
+			<workSpeedPenaltyTemperature>false</workSpeedPenaltyTemperature>
+		</building>
+		<terrainAffordanceNeeded>DropOnWater</terrainAffordanceNeeded>
+	</ThingDef>
+
+</Defs>

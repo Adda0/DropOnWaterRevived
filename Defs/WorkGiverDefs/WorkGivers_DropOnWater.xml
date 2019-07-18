@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>DropOnWater</defName>
+		<label>drop on water</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>41</priorityInType>
+		<fixedBillGiverDefs>
+			<li>DropSpot</li>
+		</fixedBillGiverDefs>
+		<verb>dropping things on water on</verb>
+		<gerund>dropping things on water on</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>
