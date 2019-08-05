@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>DropSpot</defName>
-		<label>drop spot</label>
+		<label>sink spot</label>
 		<description>Troubles with something or... somebody? Just drop them on water when nobody is looking.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
