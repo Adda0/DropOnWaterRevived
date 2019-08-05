@@ -5,13 +5,15 @@
 	<supportedVersions><li>1.0</li></supportedVersions>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1807530429</url>
 	<description>
-This is a revival of an original mod [b18] Drop on Water (Fast and Clean) which adds a new way of getting rid of some of your unneeded materials, coppses, tainted apparel etc.
+This is a revival of an original mod [b18] Drop on Water (Fast and Clean) which adds a new way of getting rid of some of your unneeded materials, corpses, tainted apparel etc.
+
+Right now I only updated the previous version of the original mod with deleting a whole "disc thing" that was included but I am open for new suggestions and I want to update this mod even further. Just wanted to hear what you think I should add cause I have no idea whatsoever.
 
 ––––––––––––
 New workspace
-A new workspace has been added – Drop spot – You can find it in Misc tab and place it on deep water, ocean deep water and moving chest-deep water.
+A new workspace has been added – Sink spot – You can find it in Misc tab and place it on deep water, ocean deep water and moving chest-deep water.
 
-Drop spot comes with new recipes for dropping things on water:
+Sink spot comes with new recipes for dropping things on water:
 drop corpses
 drop weapons
 drop apparel
@@ -21,10 +23,11 @@ drop anything 75×
 
 But be careful, things dropped on the water cannot be recovered afterwards. Pay close attention to what you are planning to be set to drop! Once it is done, there is no way back.
 
-Mod will probably need some balancing and adding a few more functions so if you have any suggestions of what to change, I will be glad to hear them in the comments below :)
+Mod will probably need some balancing and adding a few more functions so if you have any suggestions of what to change, I will be glad to hear them in comments below :)
+
 ––––––––––––
 Compatibility and other mods
-Mod is safe to add to your saved games or delete from them. Only make sure to delete all bills from Drop spot and preferably also all Drop spots from a map as well.
+Mod is safe to add to your saved games or delete from them. Only make sure to delete all bills from Sink spot and preferably also all Sink spots from a map as well.
 
 Required mods
 None.
@@ -33,6 +36,8 @@ Recommended mods
 None.
 
 Compatible mods
+Dubs Bad Hygiene by Dubwise – added patch to make possible to drop "waste" items from this mod such as Fecal sludge etc. on water.
+
 Mod should be fully compatible with every other mod. Though I expect there will be some issues with other mods so if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
 
 Known incompatible mods
@@ -48,6 +53,6 @@ Credits
 Original mod: [b18] Drop on Water (Fast and Clean) by Tremeloe – I used his code and rewritten it for 1.0 but I also changed and add/remove a few things so it does better what I wanted it to do.
 
 License
-All original code in this mod is licensed under the MIT license. Do whatever you might want to do with my mod, but would be nice if you would give me credit for the original mod/idea :)
+All original code in this mod is licensed under the MIT license[opensource.org]. Do whatever you might want to do with my mod, but would be nice if you would give me credit for the original mod/idea :)
 	</description>
 </ModMetaData>
