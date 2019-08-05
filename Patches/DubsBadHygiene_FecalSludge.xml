@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+			<mods>
+				<li>Dubs Bad Hygiene</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[@Name="DropAnythingBase"]/fixedIngredientFilter/categories</xpath>
+						<value>
+							<li>Waste</li>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="DropAnything"]/ingredients/li/filter/categories</xpath>
+						<value>
+							<li>Waste</li>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="DropAnythingx25"]/ingredients/li/filter/categories</xpath>
+						<value>
+							<li>Waste</li>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="DropAnythingx75"]/ingredients/li/filter/categories</xpath>
+						<value>
+							<li>Waste</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+	</Operation>
+</Patch>
