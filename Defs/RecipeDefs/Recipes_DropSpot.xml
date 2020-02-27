@@ -7,7 +7,6 @@
 			<li>DropSpot</li>
 		</recipeUsers>
 		<workAmount>350</workAmount>
-		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
 	</RecipeDef>
 
 	<RecipeDef ParentName="DropOnWaterBase">

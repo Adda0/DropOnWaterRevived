@@ -34,8 +34,6 @@
 			<sowTag>SupportPlantsOnly</sowTag>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
-			<workSpeedPenaltyOutdoors>false</workSpeedPenaltyOutdoors>
-			<workSpeedPenaltyTemperature>false</workSpeedPenaltyTemperature>
 		</building>
 		<terrainAffordanceNeeded>DropOnWater</terrainAffordanceNeeded>
 	</ThingDef>
