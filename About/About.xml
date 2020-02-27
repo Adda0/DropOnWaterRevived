@@ -2,7 +2,11 @@
 <ModMetaData>
 	<name>Drop on Water Revived</name>
 	<author>Adda</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>Adda.DropOnWaterRevived</packageId>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1807530429</url>
 	<description>
 This is a revival of an original mod [b18] Drop on Water (Fast and Clean) which adds a new way of getting rid of some of your unneeded materials, corpses, tainted apparel etc.
