@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <ModMetaData>
 	<name>Drop on Water Revived</name>
 	<author>Adda</author>
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<packageId>Adda.DropOnWaterRevived</packageId>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1807530429</url>
